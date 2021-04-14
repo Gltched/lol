@@ -31,4 +31,4 @@ jobs:
     - run: npm install socket.io
     - run: npm install -g nodemon
     - run: cd client/src
-    - run: nodemon start
+    - run: nodemon client
