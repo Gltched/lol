@@ -27,5 +27,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: cd server
     - run: npm i
+    - run: npm install express
     - run: npm install -g nodemon
     - run: nodemon server
