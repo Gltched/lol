@@ -30,4 +30,4 @@ jobs:
     - run: npm install express
     - run: npm install socket.io
     - run: npm install -g nodemon
-    - run: nodemon project_chat_application
+    - run: nodemon start
