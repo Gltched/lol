@@ -28,4 +28,4 @@ jobs:
     - run: cd server
     - run: npm i
     - run: npm install -g nodemon
-    - run: nodemon --localhost:25565 index.js
+    - run: nodemon server
